@@ -1,9 +1,35 @@
 #A complete checklist for testing a web application#
 
 ##Types of testing##
-- Usability testing
-- Functional testing
-- Compatibility testing
-- Database testing
-- Security testing
-- Performance testing
+- Usability
+- Functional
+- Compatibility
+- Database
+- Security
+- Performance
+
+##Usability testing##
+Verifies that the product is easy and effective to use according to standard usability testing practices.
+
+###Usability testing scenarios###
+- Web page content is correct, with no grammatical or spelling errors.
+- All fonts are compliant.
+- All text is correctly aligned.
+- All error messages are correct, with no spelling or grammatical errors, and match the window title.
+- Tooltips exist for all fields.
+- All fields are correctly aligned.
+- Adequate space is left between fields, columns, rows, and error messages.
+- All buttons should have a standard format and size.
+- A link to the homepage should be on every page of the site.
+- Inactive fields should be grayed out.
+- Check that there are no broken links or images on the site.
+- Confirmation messages should be displayed for all update and delete operations.
+- Check the site at different screen resolutions ((640 x 480, 600x800, etc).
+- Check that the user can use the system without annoyance.
+- Check that the TAB is working properly.
+- The scroll bar should only appear when it is required.
+- If there is an error message when submitting a form, it should contain the information provided by the user.
+- The header should appear on every page.
+- All fields (text, drop-down menus, radio buttons, etc.) and buttons should be keyboard accessible and the user should be able to use the site using only the keyboard.
+- Ensure that data in drop-down lists is not cut off due to field sizes, and check if the data is code-locked or admin-controlled.
+
