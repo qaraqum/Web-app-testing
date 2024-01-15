@@ -73,5 +73,76 @@ To evaluate how well software works in a particular browser, under a particular 
 - Make sure Java Script code works in different browsers.
 - Test animated GIFs in different browsers.
 
-### Compatibility testing tool
-Spoon.net provides access to thousands of applications (browsers) that do not require installation. This tool helps to test the application in different browsers on the same machine.
+## Database testing
+- The tester must understand the functional requirements, business logic, basic application scenario, and database design.
+- The tester must understand the tables, triggers, storage procedures, mapping methods, and pointers used for the application.
+- The tester must understand the logic of triggers, storage procedures, display methods, and pointers.
+- The tester must understand which tables are affected when insert, update and delete operations are performed in the application.
+
+### Database testing scripts
+- Check the name of the database: it should match the specification.
+- Check the tables, columns, column types, and default values: these should all match the specification.
+- Check if the column allows the value null.
+- Check the primary and foreign key of each table.
+- Test the storage procedures.
+- Test whether the storage procedure is set.
+- Check the name of the storage procedure.
+- Check the parameter names, types, and number of parameters.
+- Check if the parameters are mandatory or not.
+- Test the storage procedure by removing some parameters.
+- Check the database, if the output is zero - records with zero must be involved.
+- Test the storage procedure by setting simple SQL queries.
+- Verify that the procedure returns values.
+- Test the procedure by entering test data.
+- Check the behavior of each flag in the table.
+- Verify that the data is properly stored in the database after each entry.
+- Check the data at each update, delete, and insert operation.
+- Check the length of each field. The length on the backend and frontend should match.
+- Check the names of the QA, UAT, and sell databases. The names should be unique.
+- Check the encrypted data in the database.
+- Check the size of the database and the response time for each query.
+- Check the data displayed on the frontend and make sure it matches the backend.
+- Check data integrity by entering invalid values into the database.
+- Check the triggers.
+
+## Security testing
+Aims to find flaws and gaps in terms of application security.
+
+### Security testing scenarios
+- Ensure that pages containing important data (password, credit card number, answers to secret questions, etc.) are opened via HTTPS (SSL).
+- Ensure that important information (password, credit card number) is displayed encrypted.
+- Make sure password rules are enforced on all authorization pages (registration, forgot password, change password).
+- Ensure that if a password is changed, the user cannot log in with the old password.
+- Ensure that error messages do not contain any sensitive information.
+- Make sure that if the user is logged out or the session is terminated, the user cannot use the site.
+- Check access to closed and open pages of the site directly without authorization.
+- Make sure the "View Source Code" option is disabled and not visible to the user.
+- Make sure the user's account is locked if he/she enters the password incorrectly several times.
+- Ensure that the password is not stored in a cookie.
+- Ensure that if any functionality fails, the system does not display information about the application, server, or database. Instead, the appropriate error message is displayed.
+- Check the site for SQL injection.
+- Check user rights and roles. For example, a candidate should not be able to access the admin page.
+- Make sure that important transactions are written to logs and the information can be tracked.
+- Ensure that session values are displayed encrypted in the address bar.
+- Ensure that cookies are stored in encrypted form.
+- Test the application for resistance to bruteforce attacks.
+
+## Performance testing
+To evaluate whether a system or component meets specific performance requirements.
+
+### Performance testing scenarios
+- Determining the performance, stability, and scalability of an application under different workloads.
+- Determining if the current architecture can support the application under peak loads.
+- Determining which configuration results in the best performance.
+- Determining the bottle neck of the application and infrastructure.
+- Determining if response times have changed with a new version of the application.
+- Evaluating the product and/or hardware to make sure it will handle the projected load volumes.
+
+In general, it is not possible to perform performance testing manually for a number of reasons.
+To deal with it, specialized performance testing tools are used:
+- [Apache JMeter](https://jmeter.apache.org/) 
+- Load Runner
+- Borland Silk Performer
+- Rational Performance Tester
+- WAPT
+- NEO LOAD
