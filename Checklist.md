@@ -1,14 +1,14 @@
 # A complete checklist for testing a web application
 
 ## Types of testing
-- Usability
-- Functional
-- Compatibility
-- Database
-- Security
-- Performance
+1. Usability
+2. Functional
+3. Compatibility
+4. Database
+5. Security
+6. Performance
 
-## Usability testing
+## 1. Usability testing
 Verifies that the product is easy and effective to use according to standard usability testing practices.
 
 ### Usability testing scenarios
@@ -33,7 +33,7 @@ Verifies that the product is easy and effective to use according to standard usa
 - All fields (text, drop-down menus, radio buttons, etc.) and buttons should be keyboard accessible and the user should be able to use the site using only the keyboard.
 - Ensure that data in drop-down lists is not cut off due to field sizes, and check if the data is code-locked or admin-controlled.
 
-## Functional testing
+## 2. Functional testing
 To ensure that the product conforms to the right functional specification mentioned in the development documentation.
 
 ### Functional testing scenarios
@@ -62,7 +62,7 @@ To ensure that the product conforms to the right functional specification mentio
 - See what happens if the user deletes cookies after visiting the site.
 - Test all the data in the drop-down lists: they should be in chronological order.
 
-## Compatibility testing
+## 3. Compatibility testing
 To evaluate how well software works in a particular browser, under a particular OS, with other software or hardware.
 
 ### Compatibility testing scenarios
@@ -73,7 +73,7 @@ To evaluate how well software works in a particular browser, under a particular 
 - Make sure Java Script code works in different browsers.
 - Test animated GIFs in different browsers.
 
-## Database testing
+## 4. Database testing
 - The tester must understand the functional requirements, business logic, basic application scenario, and database design.
 - The tester must understand the tables, triggers, storage procedures, mapping methods, and pointers used for the application.
 - The tester must understand the logic of triggers, storage procedures, display methods, and pointers.
@@ -105,7 +105,7 @@ To evaluate how well software works in a particular browser, under a particular 
 - Check data integrity by entering invalid values into the database.
 - Check the triggers.
 
-## Security testing
+## 5. Security testing
 Aims to find flaws and gaps in terms of application security.
 
 ### Security testing scenarios
@@ -127,7 +127,7 @@ Aims to find flaws and gaps in terms of application security.
 - Ensure that cookies are stored in encrypted form.
 - Test the application for resistance to bruteforce attacks.
 
-## Performance testing
+## 6. Performance testing
 To evaluate whether a system or component meets specific performance requirements.
 
 ### Performance testing scenarios
