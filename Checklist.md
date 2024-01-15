@@ -141,8 +141,7 @@ To evaluate whether a system or component meets specific performance requirement
 In general, it is not possible to perform performance testing manually for a number of reasons.
 To deal with it, specialized performance testing tools are used:
 - [Apache JMeter](https://jmeter.apache.org/) 
-- Load Runner
-- Borland Silk Performer
-- Rational Performance Tester
-- WAPT
-- NEO LOAD
+- [Load Runner](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
+- [Borland Silk Performer](https://www.microfocus.com/en-us/products/silk-performer/overview)
+- [WAPT](https://www.loadtestingtool.com)
+- [NEO LOAD]([https://www.tricentis.com/lp/neoload-performance-load-testing-ppc)
