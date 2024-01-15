@@ -62,3 +62,16 @@ To ensure that the product conforms to the right functional specification mentio
 - See what happens if the user deletes cookies after visiting the site.
 - Test all the data in the drop-down lists: they should be in chronological order.
 
+## Compatibility testing
+To evaluate how well software works in a particular browser, under a particular OS, with other software or hardware.
+
+### Compatibility testing scenarios
+- Test the site in different browsers (IE, Firefox, Chrome, Safari, Opera) and make sure the site displays correctly.
+- Make sure that the version of HTML used is compatible with the respective browser versions.
+- Make sure images display correctly in different browsers.
+- Make sure fonts display correctly in different browsers.
+- Make sure Java Script code works in different browsers.
+- Test animated GIFs in different browsers.
+
+### Compatibility testing tool
+Spoon.net provides access to thousands of applications (browsers) that do not require installation. This tool helps to test the application in different browsers on the same machine.
